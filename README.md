@@ -5,7 +5,6 @@
 🔗 **Live app:** [olist-revenue-retention.streamlit.app](https://olist-revenue-retention.streamlit.app/)
 📊 **Dataset:** [Olist Brazilian E-Commerce Public Dataset](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce) (Kaggle)
 
-![Dashboard preview](assets/dashboard-preview.png)
 
 ---
 
