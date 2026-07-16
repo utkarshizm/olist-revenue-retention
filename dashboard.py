@@ -124,7 +124,7 @@ st.caption("SQL → Streamlit pipeline. Insights, not just queries.")
 k1, k2, k3, k4 = st.columns(4)
 k1.metric("Total Revenue", f"R$ {mom['revenue'].sum():,.0f}")
 k2.metric("Unique Customers", f"{rfm['customers'].sum():,.0f}")
-k3.metric("Avg MoM Growth", f"{mom['mom_growth_pct'].mean():.1f}%")
+k3.metric("Avg MoM Growth", f"{mom['mom_growth_pct'].median():.1f}%")
 top_decile_pct = ltv.loc[ltv['revenue_decile']==1, 'pct_of_total_revenue'].iloc[0]
 k4.metric("Top-Decile Revenue Share", f"{top_decile_pct:.1f}%")
 
